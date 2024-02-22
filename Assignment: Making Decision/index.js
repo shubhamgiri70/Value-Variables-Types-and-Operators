@@ -10,7 +10,7 @@
 // let num = prompt ('enter a number:');
 // if (num % 2 === 0){
 //     alert('number is even');
-// } 
+// }
 // else {
 //     alert('number is odd');
 // }
@@ -32,7 +32,6 @@
 // let num2 = prompt ('enter another number:');
 // num1 > num2 ? alert ('num1-max-value') : alert ('num2-max-value');
 
-
 /*
 4. Write a program that asks the user for the house name and check the following conditions:
 
@@ -52,27 +51,37 @@
 //     alert ("All men must die");
 // }
 
-
 // 5. Convert the above code using`?` terniary operator
 
-let houseName = prompt ('enter your house name')
-houseName === "stark" ? alert (" Winter is coming") : alert ("All men must die");
-houseName === "lannister" ? alert ("A lannister always pays his debt") : alert ("All men must die");
-
+// let houseName = prompt ('enter your house name')
+// houseName === "stark" ? alert (" Winter is coming") : alert ("All men must die");
+// houseName === "lannister" ? alert ("A lannister always pays his debt") : alert ("All men must die");
 
 // Switch
 
 // 6. Write a program that takes the number of the month(1 - 12) and alert number of days in the month.
 
-
+// let month = prompt('enter number of month')
+// if (month == 2){
+//     alert ('28');
+// }
+// else if (month % 2 !== 0 || month == 8){
+//     alert ('31');
+// }
+// else {
+//     alert ('30');
+// }
 
 /* 7.
-- Write a program that take the salery of the user using prompt and alert the in -hand amount.You will find out the in -hand amount by deducting the tax amoun from salery.Conditions are given below.
+- Write a program that take the salery of the user using prompt and alert the in -hand amount.You will find out the in -hand amount by deducting the tax amount from salery. Conditions are given below.
   - `Salary <= 20000` tax is 10 %
   - `Salary <= 40000` tax is 20 %
   - `Salary > 50000` tax is 30 %
 
 */
+
+let salery = prompt ('enter the salery');
+if salery <= 20000 
 
 //  if..else vs switch
 
@@ -86,9 +95,6 @@ Implement the condition give below using`if..else` and`switch` statement.
   - `marks > 0` alert`"Grade D"`
 
 */
-
-
- 
 
 /* 9. Weather app
 
