@@ -20,17 +20,17 @@
 // let num1 = prompt ('enter a number:');
 // let num2 = prompt ('enter another number:');
 // if (num1 > num2) {
-//     alert (`${num1} max-value`);
+//     alert (`${num1} is greater`);
 // }
 // else if (num1 < num2) {
-//     alert (`${num2} max-value`);
+//     alert (`${num2} is greater`);
 // }
 
 // 3. Convert the above code using`?` terniary operator
 
 // let num1 = prompt ('enter a number:');
 // let num2 = prompt ('enter another number:');
-// num1 > num2 ? alert(`${num1} max-value`) : alert (`${num2} max-value`);
+// num1 > num2 ? alert(`${num1} is greater`) : alert (`${num2} is greater`);
 
 /*
 4. Write a program that asks the user for the house name and check the following conditions:
@@ -54,12 +54,54 @@
 // 5. Convert the above code using`?` terniary operator
 
 // let houseName = prompt ('enter your house name')
-// houseName === "stark" ? alert (" Winter is coming") : alert ("All men must die");
-// houseName === "lannister" ? alert ("A lannister always pays his debt") : alert ("All men must die");
+// houseName === "stark" ? alert (" Winter is coming") : houseName === "lannister" ? alert ("A lannister always pays his debt") : alert ("All men must die");
 
 // Switch
 
 // 6. Write a program that takes the number of the month(1 - 12) and alert number of days in the month.
+
+// let month = prompt("enter the name of a month");
+
+// switch (month) {
+//   case "January":
+//     alert("The number of days are 31");
+//     break;
+//   case "February":
+//     alert("The number of days are 28");
+//     break;
+//   case "March":
+//     alert("The number of days are 31");
+//     break;
+//   case "April":
+//     alert("The number of days are 30");
+//     break;
+//   case "May":
+//     alert("The number of days are 31");
+//     break;
+//   case "June":
+//     alert("The number of days are 30");
+//     break;
+//   case "July":
+//     alert("The number of days are 31");
+//     break;
+//   case "August":
+//     alert("The number of days are 31");
+//     break;
+//   case "September":
+//     alert("The number of days are 30");
+//     break;
+//   case "October":
+//     alert("The number of days are 31");
+//     break;
+//   case "November":
+//     alert("The number of days are 30");
+//     break;
+//   case "December":
+//     alert("The number of days are 31");
+//     break;
+//   default:
+//     alert("not a valid input");
+// }
 
 // let month = prompt('enter number of month')
 // if (month == 2){
@@ -93,6 +135,9 @@
 //     let c = salary * 30 / 100;
 //     alert (`${c}`)
 // }
+
+
+
 
 //  if..else vs switch
 
@@ -169,5 +214,3 @@ Implement the condition give below using`if..else` and`switch` statement.
 // else {
 //     alert (`Not a valid input`);
 // }
-
-..
