@@ -136,8 +136,24 @@
 //     alert (`${c}`)
 // }
 
+// let salary = prompt("enter your salery");
 
-
+// switch (true) {
+//   case salary <= 20000:
+//     let a = (salary * 10) / 100;
+//     alert(`your in-hand amount is ${salary - a}`);
+//     break;
+//   case salary <= 40000:
+//     let b = (salary * 20) / 100;
+//     alert(`your in-hand amount is ${salary - b}`);
+//     break;
+//   case salary <= 50000:
+//     let c = (salary * 30) / 100;
+//     alert(`your in-hand amount is ${salary - c}`);
+//     break;
+//   default:
+//     alert("not a valid input!");
+// }
 
 //  if..else vs switch
 
@@ -152,7 +168,7 @@ Implement the condition give below using`if..else` and`switch` statement.
 
 */
 
-// let marks = prompt ("how many marks you got");
+// let marks = Number(prompt ("how many marks you got"));
 // if (marks > 100){
 //     alert ("marks can't be greater than 100")
 // }
@@ -169,7 +185,7 @@ Implement the condition give below using`if..else` and`switch` statement.
 //     alert ("Grade D")
 // }
 
-// let marks = prompt("how many marks you got");
+// let marks = Number(prompt("how many marks you got"));
 // switch (true) {
 //   case marks > 100:
 //     alert("marks can't be greater than 100");
@@ -186,6 +202,8 @@ Implement the condition give below using`if..else` and`switch` statement.
 //   case marks > 0:
 //     alert("Grade D");
 //     break;
+//   default:
+//     alert("not a valid input!");
 // }
 
 /* 9. Weather app
@@ -198,7 +216,7 @@ Implement the condition give below using`if..else` and`switch` statement.
   - Anything else should alert`Not a valid input`
 */
 
-// let user = prompt(`What is the weather like outside?`)
+// let user = prompt(`What is the weather like outside?`);
 // if (user == `sunny`){
 //     alert (`Wear a T-shirt`);
 // }
@@ -213,4 +231,24 @@ Implement the condition give below using`if..else` and`switch` statement.
 // }
 // else {
 //     alert (`Not a valid input`);
+// }
+
+// let weather = prompt(`What is the weather like outside?`);
+
+// switch (weather) {
+//   case "sunny":
+//     alert(`Wear a T-shirt`);
+//     break;
+//   case "rainy":
+//     alert(`Don't forget to take your raincoat`);
+//     break;
+//   case "hot":
+//     alert(`Get a hanky`);
+//     break;
+//   case "freezing":
+//     alert(`Get your sweeter on`);
+//     break;
+//   default:
+//     alert(`not a valid input!`);
+//     break;
 // }
